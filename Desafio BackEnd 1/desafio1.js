@@ -49,7 +49,7 @@ obtenerResponsable(){
 }
 
 }
-let usuario1 = new Usuario("Maria", "Perez", [{Nombre:"Viaje al fin de la noche", Autor:"Louis-Ferdinand Céline"},{Nombre:"Don Quijote de la Mancha", Autor:"Miguel de Cervantes"}], ["Perro", "Gato"]);
+let usuario1 = new Usuario("Maria", "Porcel", [{Nombre:"Los juegos del hambre", Autor:"Suzanne Collins"},{Nombre:"Don Quijote de la Mancha", Autor:"Miguel de Cervantes"}], ["Perro", "Gato"]);
 usuario1.incrementarUsuario();
 
 console.log(usuario1);
@@ -60,7 +60,7 @@ let getFullName= usuario1.getFullName();
 
 addMascota= usuario1.addMascota("Loro");
 
-addBooks= usuario1.addBooks({Nombre:"El señor de los anillos",Autor:"J.R.R. Tolkien"});
+addBooks= usuario1.addBooks({Nombre:"El Señor de las Moscas",Autor:"William Golding"});
 console.log(countMascotas)
 console.log(getFullName);
 console.log(getBookNames)
